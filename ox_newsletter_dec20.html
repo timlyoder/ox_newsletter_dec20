@@ -462,7 +462,7 @@
 
 	@media only screen and (max-width:599px)  {
 
-		#adweek, #yoko, #sia, #davey {
+		#adweek, #yoko, #sia, #davey-header {
 			display: inline-block;
 		}
 		
@@ -486,8 +486,7 @@
 		}
 
 		#davey {
-			width: 84%;
-			padding: 0;
+			width: 50%;
 			padding-top: 20px;
 		}
 
@@ -500,8 +499,9 @@
 			padding-right: 8%;
 		}
 
-		#yoko_img {
-			padding-left: 8%;
+		#yoko_img, #davey {
+			padding-left: 8%!important;
+			padding-right: 8%!important;
 		}
 
 		#four-seasons {
@@ -628,12 +628,21 @@
 	
 	}
 
-	@media only screen and (max-width:370px)  {
+	@media only screen and (max-width:380px)  {
 
 		#four-seasons {
-			font-size: 35px!important;
+			font-size: 40px !important;
+			line-height: 1.1em !important;
 		}
 	
+	}
+
+	@media only screen and (max-width:350px)  {
+
+		#four-seasons {
+			font-size: 35px !important;
+		}
+
 	}
 	
 </style>
