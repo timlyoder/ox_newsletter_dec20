@@ -467,19 +467,19 @@
 
 	@media only screen and (max-width:599px)  {
 
-		#adweek, #yoko, #sia, #davey-header {
+		#adweek, #yoko, #sia, #davey-header, #refer {
 			display: inline-block;
 		}
 		
 		#yoko {
-			display: none;
+			display: none!important;
 		}
 
 		#yoko_duplicate {
 			display: block!important;
-			padding-left: 8%;
-			padding-top: 50px;
-			width: 80%;
+			padding-left: 8%!important;
+			padding-top: 50px!important;
+			width: 80%!important;
 		}
 
 		.adjust-width, img {
@@ -493,7 +493,7 @@
 
 		#davey-header {
 			padding-top: 50px;
-			width:68%;
+			width: 68%;
 		}
 
 		#yoko_img, #davey, #medium-article, #case-study, .mcnTextContent {
@@ -513,10 +513,6 @@
 			background-image: url("https://mcusercontent.com/f0c262661c7720bbbb8a691d9/images/fc77bc61-428c-4e3c-b997-f0e537d96373.png") !important;
 			background-size: cover;
 			padding-left: 8%;
-		}
-
-		#refer {
-			display: inline-block;
 		}
 
 		#see-us {
@@ -570,25 +566,17 @@
 			width: 120px!important;
 		}
 
-		#header-left {
-			padding-left: 4%!important;
+		#header-left, #header-right {
+			padding: 4%!important;
 			padding-top: 30px!important;
 			padding-bottom: 30px!important;
+		}
+
+		#betterby td:first-of-type, #header-left, #contact {
 			padding-right:0!important;
 		}
 
-		#header-right {
-			padding-right: 4%!important;
-			padding-top: 30px!important;
-			padding-bottom: 30px!important;
-			padding-left:0!important;
-		}
-
-		#betterby td:first-of-type, #contact {
-			padding-right:0!important;
-		}
-
-		#betterby td:last-of-type {
+		#betterby td:last-of-type, #header-right {
 			padding-left:0!important;
 		}
 
